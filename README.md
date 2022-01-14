@@ -112,5 +112,4 @@ A Figura 9 por sua vez, ilustra fontes de dados alternativas para o Redshift. Se
 | ![image info](./pictures/figure13.png) |
 |:--:|
 | <b>Figura 13 </b>|
-Fonte: Curso [[NEW] Ultimate AWS Certified Database Specialty 2022
-](https://www.udemy.com/course/aws-certified-database-specialty-dbs/)
+Fonte: Curso [Ultimate AWS Certified Database Specialty 2022](https://www.udemy.com/course/aws-certified-database-specialty-dbs/) 
