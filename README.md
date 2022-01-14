@@ -81,7 +81,7 @@ Em seguida, o que fiz o carregar os dados para dentro do projeto Python. O arqui
 
 | ![image info](./pictures/figure9.png) |
 |:--:|
-| <b>Figura 9</b>|
+| <b>Figura 9 </b>|
 
 A etapa seguinte foi transformar os dados de json para dataframe. Nesta etapa, foi necessário uma busca no Google para resolver o problema, uma vez que a último vez que trabalhei esse tipo de transformação foi em 2019. Através da pesquisa, passei por diferentes métodos para realizar essa transformação até que encontrei o método _json_normalize_, da biblioteca pandas. Através da analise da [documentação](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.io.json.json_normalize.html) da biblioteca bem como desse [link](https://www.kaggle.com/jboysen/quick-tutorial-flatten-nested-json-in-pandas) do Kaggle, consegui chegar no código abaixo, que produziu o output mostrado pela Figura 6. 
 
@@ -91,7 +91,7 @@ df.head(9)
 
 | ![image info](./pictures/figure10.png) |
 |:--:|
-| <b>Figura 10</b>|
+| <b>Figura 10 </b>|
 
 A última etapa foi separar o dataframe seguindo o modelo relacional. Temos que a tabela resultado da transformação de dados se caracteriza por ser do tipo fato, ou seja, armazena todos os dados de acontecimento de um determinado contexto. Para este desafio, a minha intenção era separar as entidades em diferentes tabelas de dimensão mas por conta do limite de tempo e da quantidade de tabelas desejada, criei apenas uma tabela de dimensão, no caso, para o atributo _ProductName_. A Figura 7 ilustra o que foi feito. 
 
