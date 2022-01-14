@@ -61,7 +61,7 @@ Com isso, voltei para a abordagem do Jupyter Notebook local na minha máquina. A
 
 Com os dados carregados em formato dataframe, o trabalho foi executar a operação matemática desejada. A Figura 8 ilustra o que foi feito. Através do método de dataframe _withColumn_ fui criando as colunas base para a operação e por fim fiz um groupBy com agregação de soma para obter o resultado desejado.
 
-| ![image info](./pictures/figure8.png) |
+| ![image info](./pictures/figura8.png) |
 |:--:|
 | <b>Figura 8 </b>|
 
@@ -79,7 +79,7 @@ Em seguida, o que fiz o carregar os dados para dentro do projeto Python. O arqui
   data_js = json.load(f)
   pp.pprint(data_js)
 
-| ![image info](./pictures/figure9.png) |
+| ![image info](./pictures/figura9.png) |
 |:--:|
 | <b>Figura 9 </b>|
 
@@ -89,7 +89,7 @@ A etapa seguinte foi transformar os dados de json para dataframe. Nesta etapa, f
                             meta=['CreateDate', 'EmissionDate','Discount', 'NFeNumber', 'NFeID'])
 df.head(9)
 
-| ![image info](./pictures/figure10.png) |
+| ![image info](./pictures/figura10.png) |
 |:--:|
 | <b>Figura 10 </b>|
 
